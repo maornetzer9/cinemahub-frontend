@@ -2,7 +2,7 @@
 
 **A cinema operations workspace for movies, members, subscriptions, and role-based administration.**
 
-[Live Demo](https://cinemahub.onrender.com) · [Users API](https://movies-user-backend.onrender.com) · [Catalog API](https://movies-subscription-backend.onrender.com)
+[Live Demo](https://cinemahub-xi3w.onrender.com) · [Users API](https://movies-user-backend.onrender.com) · [Catalog API](https://movies-subscription-backend.onrender.com)
 
 ![CinemaHub sign-in](docs/assets/login-desktop.png)
 
@@ -97,7 +97,7 @@ npm run dev
 
 ## Deployment
 
-The public site is [cinemahub.onrender.com](https://cinemahub.onrender.com). Build with `npm install; npm run build` and publish `./dist`.
+The public site is [cinemahub-xi3w.onrender.com](https://cinemahub-xi3w.onrender.com). Build with `npm install; npm run build` and publish `./dist`.
 
 Set `VITE_CINEMA_WB` to `https://movies-user-backend.onrender.com` and `VITE_SUBSCRIPTIONS_WB` to `https://movies-subscription-backend.onrender.com` before the build.
 
