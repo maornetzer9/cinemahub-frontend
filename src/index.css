@@ -58,8 +58,8 @@ a:hover {
     position: fixed !important;
     top: auto !important;
     right: auto !important;
-    bottom: 8px !important;
-    left: 8px !important;
+    bottom: 16px !important;
+    left: 9px !important;
     width: 56px !important;
     height: 42px !important;
     max-width: 56px !important;
@@ -97,6 +97,12 @@ a:hover {
 @media (min-width: 900px) {
     #NagishLiTrigger {
         bottom: 24px !important;
-        left: -4px !important;
+        left: 17px !important;
+    }
+
+    /* Login and Register only. The trust badge starts at 64px, so the circle
+       sits 12px from the screen edge and clears the badge. */
+    body:has([data-testid="ShieldOutlinedIcon"]) #NagishLiTrigger {
+        left: 5px !important;
     }
 }

@@ -1,9 +1,10 @@
 import { createTheme } from '@mui/material/styles';
-import { colors, radius, typography, spacing, layout } from '../design-system/tokens';
+import { colors, radius, typography, spacing } from '../design-system/tokens';
 
-/** NagishLi #NagishLiTrigger max-width — optical center in collapsed sidebar gutter */
-const NAGISHLI_TRIGGER_WIDTH = 80;
-const nagishliOpticalLeft = (layout.sidebarCollapsedWidth - NAGISHLI_TRIGGER_WIDTH) / 2;
+/** Visible 42px circle is centered in the 56px trigger box. Match AppFab insets. */
+const NAGISHLI_ICON_INSET = (56 - 42) / 2;
+const nagishliLeft = spacing.lg - NAGISHLI_ICON_INSET;
+const nagishliLeftDesktop = spacing.xl - NAGISHLI_ICON_INSET;
 
 const cinemaTheme = createTheme({
     palette: {
@@ -78,13 +79,13 @@ const cinemaTheme = createTheme({
                 body: {
                     backgroundColor: colors.background,
                 },
-                /* Match NagishLi bottom to AppFab; optically center in collapsed sidebar gutter on md+ */
+                /* Match NagishLi bottom and visible left inset to AppFab. */
                 '#NagishLiTrigger': {
                     bottom: `${spacing.lg}px !important`,
-                    left: `${spacing.sm}px !important`,
+                    left: `${nagishliLeft}px !important`,
                     '@media (min-width:900px)': {
                         bottom: `${spacing.xl}px !important`,
-                        left: `${nagishliOpticalLeft}px !important`,
+                        left: `${nagishliLeftDesktop}px !important`,
                     },
                 },
             },

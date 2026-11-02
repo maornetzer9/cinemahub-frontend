@@ -4,7 +4,9 @@
 
 [Live Demo](https://cinemahub-xi3w.onrender.com) · [Users API](https://movies-user-backend.onrender.com) · [Catalog API](https://movies-subscription-backend.onrender.com)
 
-<img src="docs/assets/login-desktop.png" alt="CinemaHub sign-in" width="1100">
+<p align="center">
+  <img src="docs/assets/login-desktop.png" alt="CinemaHub sign-in" width="838">
+</p>
 
 ## Product overview
 
@@ -25,25 +27,33 @@ The public name is CinemaHub. The mark is a film icon with “Hub” in blue (`#
 
 ## Product views
 
-**Dashboard**
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <strong>Dashboard</strong><br><br>
+      <img src="docs/assets/home-desktop.png" alt="CinemaHub dashboard" width="390">
+    </td>
+    <td align="center" valign="top">
+      <strong>Movies</strong><br><br>
+      <img src="docs/assets/movies-desktop.png" alt="CinemaHub movies" width="390">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <strong>Subscriptions</strong><br><br>
+      <img src="docs/assets/subscriptions-desktop.png" alt="CinemaHub subscriptions" width="390">
+    </td>
+    <td align="center" valign="top">
+      <strong>Users</strong><br><br>
+      <img src="docs/assets/users-desktop.png" alt="CinemaHub users" width="390">
+    </td>
+  </tr>
+</table>
 
-<img src="docs/assets/home-desktop.png" alt="CinemaHub dashboard" width="1100">
-
-**Movies**
-
-<img src="docs/assets/movies-desktop.png" alt="CinemaHub movies" width="1100">
-
-**Subscriptions**
-
-<img src="docs/assets/subscriptions-desktop.png" alt="CinemaHub subscriptions" width="1100">
-
-**Users**
-
-<img src="docs/assets/users-desktop.png" alt="CinemaHub users" width="1100">
-
-**Phone**
-
-<img src="docs/assets/movies-mobile.png" alt="CinemaHub movies on a phone" width="320">
+<p align="center">
+  <strong>Phone</strong><br>
+  <img src="docs/assets/movies-mobile.png" alt="CinemaHub movies on a phone" width="200">
+</p>
 
 ## Architecture
 
@@ -119,9 +129,9 @@ The earlier site at [movies-jps0.onrender.com](https://movies-jps0.onrender.com)
 
 | Service | Local URL | Repository |
 | --- | --- | --- |
-| This interface | Vite dev server | [Movies](https://github.com/maornetzer9/Movies) |
-| Users and authentication | `http://localhost:3000` | [Movies-User-Backend](https://github.com/maornetzer9/Movies-User-Backend) |
-| Movies and subscriptions | `http://localhost:3001` | [Movies-Subscription-Backend](https://github.com/maornetzer9/Movies-Subscription-Backend) |
+| This interface | Vite dev server | [cinemahub-frontend](https://github.com/maornetzer9/cinemahub-frontend) |
+| Users and authentication | `http://localhost:3000` | [cinemahub-users-api](https://github.com/maornetzer9/cinemahub-users-api) |
+| Movies and subscriptions | `http://localhost:3001` | [cinemahub-catalog-api](https://github.com/maornetzer9/cinemahub-catalog-api) |
 
 ## License
 
