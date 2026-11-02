@@ -4,7 +4,7 @@
 
 [Live Demo](https://cinemahub-xi3w.onrender.com) · [Users API](https://movies-user-backend.onrender.com) · [Catalog API](https://movies-subscription-backend.onrender.com)
 
-![CinemaHub sign-in](docs/assets/login-desktop.png)
+<img src="docs/assets/login-desktop.png" alt="CinemaHub sign-in" width="1100">
 
 ## Product overview
 
@@ -25,17 +25,25 @@ The public name is CinemaHub. The mark is a film icon with “Hub” in blue (`#
 
 ## Product views
 
-| Dashboard | Movies |
-| --- | --- |
-| ![CinemaHub dashboard](docs/assets/home-desktop.png) | ![CinemaHub movies](docs/assets/movies-desktop.png) |
+**Dashboard**
 
-| Subscriptions | Users |
-| --- | --- |
-| ![CinemaHub subscriptions](docs/assets/subscriptions-desktop.png) | ![CinemaHub users](docs/assets/users-desktop.png) |
+<img src="docs/assets/home-desktop.png" alt="CinemaHub dashboard" width="1100">
 
-| Phone |
-| --- |
-| ![CinemaHub movies on a phone](docs/assets/movies-mobile.png) |
+**Movies**
+
+<img src="docs/assets/movies-desktop.png" alt="CinemaHub movies" width="1100">
+
+**Subscriptions**
+
+<img src="docs/assets/subscriptions-desktop.png" alt="CinemaHub subscriptions" width="1100">
+
+**Users**
+
+<img src="docs/assets/users-desktop.png" alt="CinemaHub users" width="1100">
+
+**Phone**
+
+<img src="docs/assets/movies-mobile.png" alt="CinemaHub movies on a phone" width="320">
 
 ## Architecture
 
